@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+nav#menu{
+    margin: 2px;
+    display: block;
+}
+
+body {
+    text-align: center;
+    width: 800px;
+    padding-left: 400px;
+}
