@@ -3,6 +3,7 @@
 body {
     background-image: url(../imagens/fundo.png);
 }
+
 /*Formatação Menu*/
 nav#menu {
     display: block;
@@ -17,13 +18,55 @@ nav#menu ul {
 }
 
 nav#menu li {
-    text-shadow: 1px rgba(0,0,0,.6);
-    font-size: 15pt;
+    font-size: 12pt;
     display: inline-block;
     padding: 10px;
     margin: 2px;
 }
-div#capa{
-    margin: 0 auto 0 auto;
+header#img{
+    position: absolute; 
 }
 /*Formatação Menu*/
+
+/*Configurando corpo*/
+section img {
+    position: absolute;
+    right: 200px;
+    top: 105px;
+    margin-right: 50px;
+}
+article {
+    position: absolute;
+    top: 500px;
+    width: 890px;
+    left: 200px;
+    text-align: center;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    text-align: center;
+}
+section hr {
+    border: 0px;
+    border-top: 1px solid #000000;
+}
+/*Configurando corpo*/
+
+/*Configurando a footer*/
+footer hr {
+    margin-top: 1000px;
+    border: 0px;
+    border-bottom: 1px solid #000000;
+    text-align: center;
+}
+p#rodape {
+    font-size: 10pt;
+    color: slategrey;
+    text-align: center;
+}
+/*Configurando a footer*/
