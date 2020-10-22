@@ -3,6 +3,9 @@
 body {
     background-image: url(../imagens/fundo.png);
 }
+body#pag2 {
+    background-image: url(../imagens/fundo2.png);
+}
 
 /*Formatação Menu*/
 nav#menu {
@@ -35,7 +38,7 @@ section img {
     top: 105px;
     margin-right: 50px;
 }
-article {
+section#principal article {
     position: absolute;
     top: 500px;
     width: 890px;
@@ -43,11 +46,9 @@ article {
     text-align: center;
 }
 h1 {
-    font-family: Arial, sans-serif;
     text-align: center;
 }
 p {
-    font-family: Arial, sans-serif;
     font-size: 14pt;
     text-align: center;
 }
